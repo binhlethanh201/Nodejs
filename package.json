@@ -1,0 +1,31 @@
+{
+  "name": "create-express-framework",
+  "version": "1.0.0",
+  "description": "first step to create Express FrameWork in NodeJS tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binhlethanh201/nodejs_tutorial.git"
+  },
+  "keywords": [
+    "nodejs",
+    "tutorial",
+    "express"
+  ],
+  "author": "binhlt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/binhlethanh201/nodejs_tutorial/issues"
+  },
+  "homepage": "https://github.com/binhlethanh201/nodejs_tutorial#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
