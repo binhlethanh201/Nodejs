@@ -1,0 +1,28 @@
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h2 class="fw-bold">{{course.name}}</h2>
+    </div>
+
+    <div class="row align-items-start g-4">
+        <div class="col-lg-8">
+            <div class="ratio ratio-16x9 border rounded shadow-sm">
+                <iframe 
+                    src="https://www.youtube.com/embed/{{course.videoId}}" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <p class="fs-5">{{course.description}}</p>
+            <ul class="list-unstyled">
+                <li class=" text-center text-warning fw-semibold">{{course.level}}</li>
+            </ul>
+            <button type="button" class="btn btn-info w-100 mt-3">ĐĂNG KÝ HỌC</button>
+        </div>
+    </div>
+</div>
